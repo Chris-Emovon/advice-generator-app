@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kumbh+Sans:wght@400;600;700&family=Manrope:wght@600&display=swap');
+
+
+.card {
+  justify-content: center;
+  width: 30rem;
+  margin-top: 15%;
+  background-color: hsl(217, 19%, 38%) !important; 
+  border-radius: 10px;
+  border: 1px solid hsl(217, 19%, 38%);
+}
+* {
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+}
+
+#secondImage {
+  padding: 10px;
+  border: 1ch;
+  position: absolute;
+  left: 7.8%;
+  margin-left: 6px;
+  margin-top: 8px;
+  width: 2.7rem;
+  background-color:  hsl(150, 100%, 66%);
+  top: 5%;
+}
+.advice {
+  font-size: 22px;
+  background-color: hsl(217, 19%, 24%);
+}
+.dot {
+  height: 65px;
+  width: 65px;
+  background-color:  hsl(150, 100%, 66%);
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 30%;
+}
+.dot:hover {
+  box-shadow: 8px 8px 32px hsl(150, 100%, 66%) ;
+}
+
+#adv {
+  color: hsl(150, 100%, 66%);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: hsl(217, 19%, 24%);
+}
+
+.divider {
+  background-color: hsl(217, 19%, 24%);
+  padding: 8px;
+  
+  }
+div:nth-of-type(1) {
+  background-color: hsl(217, 19%, 24%);  
+}
+@media all and (max-width: 999px)  {
+  .divider {
+    vertical-align: top;
+    }
+  
+  .dot {
+   top: 30%;
+  }
+  
+}
+@media all and (max-width: 450px ) {
+  .card {
+    margin: 1.5rem;
+    margin-top: 8rem;
+  }
+}
+
+
+
+
+
+
+
